@@ -19,7 +19,7 @@ class Person {
     }
 
     // Methods
-    public function set_name($name) {
+    public function set_name( string $name ) {
         $this->name = $name;
     }
 
